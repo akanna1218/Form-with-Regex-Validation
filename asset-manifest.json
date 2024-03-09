@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Form-with-Regex-Validation/static/css/main.619aa91c.css",
+    "main.css": "/Form-with-Regex-Validation/static/css/main.3b31bcec.css",
     "main.js": "/Form-with-Regex-Validation/static/js/main.d599ad6b.js",
     "static/js/787.44ca185a.chunk.js": "/Form-with-Regex-Validation/static/js/787.44ca185a.chunk.js",
     "index.html": "/Form-with-Regex-Validation/index.html",
-    "main.619aa91c.css.map": "/Form-with-Regex-Validation/static/css/main.619aa91c.css.map",
+    "main.3b31bcec.css.map": "/Form-with-Regex-Validation/static/css/main.3b31bcec.css.map",
     "main.d599ad6b.js.map": "/Form-with-Regex-Validation/static/js/main.d599ad6b.js.map",
     "787.44ca185a.chunk.js.map": "/Form-with-Regex-Validation/static/js/787.44ca185a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.619aa91c.css",
+    "static/css/main.3b31bcec.css",
     "static/js/main.d599ad6b.js"
   ]
 }
