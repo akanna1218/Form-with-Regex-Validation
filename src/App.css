@@ -7,20 +7,30 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  overflow: hidden;
 
 }
 
 .App {
   background-color: #fff;
-  padding: 20px;
+  padding: 30px;
+  margin-bottom: 2rem;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 50vw;
-  height: 50vh;
+  width: 70vw;
+  height: 40vh;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 input {
   padding: 8px;
+position: relative;
+top: 1.5rem;
   margin:10px auto;
   margin-bottom: 16px;
   border: 1px solid #ccc;
@@ -31,7 +41,9 @@ button {
   padding: 10px;
   background-color: #007bff;
   position: relative;
-  left: 4rem;
+  left: 0rem;
+  top: 1.5rem;
+
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -45,7 +57,7 @@ button:hover {
 
 p {
   color: red;
-  margin-top: 10px;
+  margin-top: 4vh;
   text-align: center;
 }
 
@@ -113,6 +125,8 @@ input {
 
 button {
   padding: 10px;
+  position: relative;
+  left: 0rem;
   background-color: #007bff;
   color: #fff;
   border: none;
