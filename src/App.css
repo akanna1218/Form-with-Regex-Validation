@@ -1,7 +1,70 @@
 
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(96,34,157,0.8913690476190477) 35%, rgba(0,212,255,1) 100%);  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+.App {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50vw;
+  height: 50vh;
+}
+
+input {
+  padding: 8px;
+  margin:10px auto;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  position: relative;
+  left: 4rem;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.error{
+  color:red;
+margin-right: 90px;}
+
+.success{
+  color:rgb(0, 255, 13)
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
 
 
-/* src/components/Login.css */
+@media screen and (min-width:420px) {
+  /* src/components/Login.css */
 
 body {
   font-family: Arial, sans-serif;
@@ -73,4 +136,6 @@ margin-right: 90px;}
 
 .success{
   color:rgb(0, 255, 13)
+}
+  
 }
